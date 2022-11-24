@@ -5,12 +5,12 @@
 }
 
 .main {
-    background: linear-gradient(45deg, var(--color1), var(--color2),var(--color3));
+    background: linear-gradient(45deg, var(--color1), var(--color2),var(--color3), #f56f42, #f55742);
     background-size: 400% 400%;
 
-    -webkit-animation: main 11s ease infinite;
-    -moz-animation: main 11s ease infinite;
-    animation: main 11s ease infinite;
+    -webkit-animation: main 10s ease infinite;
+    -moz-animation: main 10s ease infinite;
+    animation: main 10s ease infinite;
 
     position: absolute; 
     top: 0;
