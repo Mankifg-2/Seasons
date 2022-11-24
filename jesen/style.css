@@ -1,11 +1,11 @@
 :root {
-    --color1: red;
-    --color2: blue;
-    --color3: green;
+    --color1: #f5cb42;
+    --color2: #f59e42;
+    --color3: #f56f42;
 }
 
 .main {
-    background: linear-gradient(270deg, var(--color1), var(--color2),var(--color3));
+    background: linear-gradient(45deg, var(--color1), var(--color2),var(--color3));
     background-size: 400% 400%;
 
     -webkit-animation: main 11s ease infinite;
@@ -17,6 +17,7 @@
     right: 0;
     bottom: 0;
     left: 0;
+    z-index: -1;
 }
 
 @-webkit-keyframes main {

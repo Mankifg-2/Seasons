@@ -1,7 +1,7 @@
 :root {
-    --color1: red;
-    --color2: blue;
-    --color3: green;
+    --color1: #72f542;
+    --color2: #98f542;
+    --color3: #bff542;
 }
 
 .main {

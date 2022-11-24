@@ -1,7 +1,7 @@
 :root {
-    --color1: rgb(0, 255, 26);
-    --color2: rgb(77, 255, 0);
-    --color3: rgb(128, 0, 0);
+    --color1: #42f56f,;
+    --color2: #42f58d;
+    --color3: #42f5b3;
 }
 
 .main {
