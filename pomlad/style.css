@@ -1,11 +1,5 @@
-:root {
-    --color1: #e5ff00;
-    --color2: #00ff08;
-    --color3: #00ff00;
-}
-
 .main {
-    background: linear-gradient(270deg, var(--color1), var(--color2),var(--color3));
+    background: linear-gradient(270deg,#b2deab, #4bc435);
     background-size: 400% 400%;
 
     -webkit-animation: main 11s ease infinite;

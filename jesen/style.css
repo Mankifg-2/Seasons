@@ -1,16 +1,10 @@
-:root {
-    --color1: #f5cb42;
-    --color2: #f59e42;
-    --color3: #f56f42;
-}
-
 .main {
-    background: linear-gradient(45deg, var(--color1), var(--color2),var(--color3), #f56f42, #f55742);
+    background: linear-gradient(45deg, #e3bc0e,  #e39c0e, #e3780e, #e3550e, #e33c0e, #e31c0e, #a12016, #6b0d06);
     background-size: 400% 400%;
 
-    -webkit-animation: main 10s ease infinite;
-    -moz-animation: main 10s ease infinite;
-    animation: main 10s ease infinite;
+    -webkit-animation: main 11s ease infinite;
+    -moz-animation: main 11s ease infinite;
+    animation: main 11s ease infinite;
 
     position: absolute; 
     top: 0;
