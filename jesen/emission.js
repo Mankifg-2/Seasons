@@ -1,19 +1,27 @@
 var i = 1;                  //  set your counter to 1
 var img = document.getElementById("img");
 var source = "/SnowFrames/Frames/"
-var num = 10
+var num = 1
 
-function myLoop() {         //  create a loop function
-  setTimeout(function() {   //  call a 3s setTimeout when the loop is called
-    console.log('hello');   //  your code here
+function myLoop() {         
+  setTimeout(function() {   
+    console.log('hello');   
     num = num + 1
     console.log(source.concat(num.toString(), ".png"));
-    num = (4 - num.length) * "0" + num //! bad code
     document.getElementById("img").src = source.concat(num.toString(), ".png");
-    if (num < 260) {           //  if the counter < 10, call the loop function
-      myLoop();             //  ..  again which will trigger another 
-    }                       //  ..  setTimeout()
+    if (num < 260) { 
+      myLoop();             
+    }
+    if (num > 260) {
+      console.log("new")
+      num = 0
+      
+      
+    }
   }, 50)
 }
  
-myLoop();                   //  start the loop
+myLoop();  
+
+
+
