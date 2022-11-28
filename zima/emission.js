@@ -12,10 +12,10 @@ function myLoop() {
     if (num < 260) { 
       myLoop();             
     }
-    if (num > 260) {
+    if (num > 259) {
       console.log("new")
       num = 0
-      
+      myLoop()
       
     }
   }, 50)
